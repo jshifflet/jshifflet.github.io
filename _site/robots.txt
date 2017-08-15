@@ -1,1 +1,1 @@
-Sitemap: http://jshifflet.github.io/sitemap.xml
+Sitemap: /sitemap.xml
