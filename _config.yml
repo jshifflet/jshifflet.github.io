@@ -1,10 +1,11 @@
 # Site settings
 title: Literate QA
 description: "A blog about the craft and art of QA automation."
+url: "https://jshifflet.github.io"
 author:
   name: "Jason Shifflet"
   email: "jason.shifflet@gmail.com"
-  url: "http://jshifflet.github.io"
+  url: "https://jshifflet.github.io"
 
 # Build settings
 baseurl: /

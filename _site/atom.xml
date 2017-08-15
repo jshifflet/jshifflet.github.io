@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Literate QA</title>
- <link href="/atom.xml" rel="self"/>
- <id></id>
- <updated>2017-08-14T20:59:52-04:00</updated>
+ <link href="https://jshifflet.github.io/atom.xml" rel="self"/>
+ <id>https://jshifflet.github.io</id>
+ <updated>2017-08-14T21:03:34-04:00</updated>
  <author>
    <name>Jason Shifflet</name>
-   <uri>http://jshifflet.github.io</uri>
+   <uri>https://jshifflet.github.io</uri>
    <email>jason.shifflet@gmail.com</email>
  </author>
 
@@ -15,8 +15,8 @@
 
  <entry>
    <title>Testing and Writing - the Knowledge Cycle</title>
-   <link href="/testing-and-writing-the-knowledge-cycle"/>
-   <id>/testing-and-writing-the-knowledge-cycle</id>
+   <link href="https://jshifflet.github.io/testing-and-writing-the-knowledge-cycle"/>
+   <id>https://jshifflet.github.io/testing-and-writing-the-knowledge-cycle</id>
    <updated>2017-08-13T00:00:00-04:00</updated>
    <content type="html">&lt;p style=&quot;text-align: center&quot;&gt;“Clear thinking becomes clear writing” - William Zinsser &lt;u&gt;On Writing Well&lt;/u&gt;&lt;/p&gt; &lt;p&gt;One of the main components of software testing is knowledge management. This knowledge is learned prior to, during, and after testing actions. Therefore, learning is another essential aspect of software testing. Learning is the process by which...</content>
  </entry>
