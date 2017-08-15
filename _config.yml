@@ -8,7 +8,7 @@ author:
   url: "http://jshifflet.github.io"
 
 # Build settings
-baseurl: / 
+baseurl: jshifflet.github.io
 markdown: kramdown
 source: .
 destination: ./_site
