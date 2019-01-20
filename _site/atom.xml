@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Literate QA</title>
- <link href="https://jshifflet.github.io/atom.xml" rel="self"/>
- <id>https://jshifflet.github.io</id>
- <updated>2017-08-14T21:03:34-04:00</updated>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2019-01-20T13:54:21-05:00</updated>
  <author>
    <name>Jason Shifflet</name>
    <uri>https://jshifflet.github.io</uri>
@@ -14,9 +14,19 @@
  
 
  <entry>
+   <title>The Crafts and Software Quality</title>
+   <link href="http://localhost:4000/the-crafts-and-software-quality"/>
+   <id>http://localhost:4000/the-crafts-and-software-quality</id>
+   <updated>2019-01-20T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;    The Software Craftsmanship manifesto links the ideas of craftsmanship and high-quality software.  Building on Agile development methods, this manifesto’s first tenant is: building working and well-crafted software.&lt;/p&gt; &lt;p&gt;    I also believe there is a link between craftsmanship and software quality.  Craft guilds have created “systems of quality” that span generations. By...</content>
+ </entry>
+
+ 
+
+ <entry>
    <title>Testing and Writing - the Knowledge Cycle</title>
-   <link href="https://jshifflet.github.io/testing-and-writing-the-knowledge-cycle"/>
-   <id>https://jshifflet.github.io/testing-and-writing-the-knowledge-cycle</id>
+   <link href="http://localhost:4000/testing-and-writing-the-knowledge-cycle"/>
+   <id>http://localhost:4000/testing-and-writing-the-knowledge-cycle</id>
    <updated>2017-08-13T00:00:00-04:00</updated>
    <content type="html">&lt;p style=&quot;text-align: center&quot;&gt;“Clear thinking becomes clear writing” - William Zinsser &lt;u&gt;On Writing Well&lt;/u&gt;&lt;/p&gt; &lt;p&gt;One of the main components of software testing is knowledge management. This knowledge is learned prior to, during, and after testing actions. Therefore, learning is another essential aspect of software testing. Learning is the process by which...</content>
  </entry>
