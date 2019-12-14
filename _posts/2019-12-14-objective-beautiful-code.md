@@ -1,9 +1,5 @@
 ---
-title: Is beautiful code possible? 
-
-Does beautiful code have higher quality?
-
-Thoughts from Alexander, Gabriel, and Dexter
+title: Is beautiful code possible? Thoughts from Alexander, Gabriel, and Dexter
 ---
 
 I have recently be working on relearning software design patterns. This has included reading: "Head First Design Patterns" and Richard P. Gabriel's "Patterns of Software". In addition, I have been thinking and reading about aesthetics in software code. In particular, the paper "On the Embodied Aesthetics of Code" by Scott Dexter et. al. All this reading and coding at my day job has me thinking:) 
