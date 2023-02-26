@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Managing Quality</title>
- <link href="https://jshifflet.github.io/atom.xml" rel="self"/>
- <id>https://jshifflet.github.io</id>
- <updated>2023-02-26T18:19:43-05:00</updated>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2023-02-26T18:31:29-05:00</updated>
  <author>
    <name>Jason Shifflet</name>
    <uri>https://jshifflet.github.io</uri>
@@ -15,8 +15,8 @@
 
  <entry>
    <title>QA as a team sport - learning to lead quality from team science research</title>
-   <link href="https://jshifflet.github.io/qa-as-a-team-sport"/>
-   <id>https://jshifflet.github.io/qa-as-a-team-sport</id>
+   <link href="http://localhost:4000/qa-as-a-team-sport"/>
+   <id>http://localhost:4000/qa-as-a-team-sport</id>
    <updated>2023-02-26T00:00:00-05:00</updated>
    <content type="html">&lt;p&gt;After studying and practicing as a QA Engineer for a little over 10 years, I have learned some hard lessons. Recently, I have been learning about Agile practices and how they relate to leading a team’s quality.&lt;/p&gt; &lt;p&gt;Getting ScrumMaster certified has been a first step into seriously studying the “process”...</content>
  </entry>
@@ -25,8 +25,8 @@
 
  <entry>
    <title>Is beautiful code possible? Thoughts from Alexander, Gabriel, and Dexter</title>
-   <link href="https://jshifflet.github.io/objective-beautiful-code"/>
-   <id>https://jshifflet.github.io/objective-beautiful-code</id>
+   <link href="http://localhost:4000/objective-beautiful-code"/>
+   <id>http://localhost:4000/objective-beautiful-code</id>
    <updated>2019-12-14T00:00:00-05:00</updated>
    <content type="html">&lt;p&gt;I have recently be working on relearning software design patterns. This has included reading: “Head First Design Patterns” and Richard P. Gabriel’s “Patterns of Software”. In addition, I have been thinking and reading about aesthetics in software code. In particular, the paper “On the Embodied Aesthetics of Code” by Scott...</content>
  </entry>
@@ -35,8 +35,8 @@
 
  <entry>
    <title>The Crafts and Software Quality</title>
-   <link href="https://jshifflet.github.io/the-crafts-and-software-quality"/>
-   <id>https://jshifflet.github.io/the-crafts-and-software-quality</id>
+   <link href="http://localhost:4000/the-crafts-and-software-quality"/>
+   <id>http://localhost:4000/the-crafts-and-software-quality</id>
    <updated>2019-01-20T00:00:00-05:00</updated>
    <content type="html">&lt;p&gt;    The Software Craftsmanship manifesto links the ideas of craftsmanship and high-quality software.  Building on Agile development methods, this manifesto’s first tenant is: building working and well-crafted software.&lt;/p&gt; &lt;p&gt;    I also believe there is a link between craftsmanship and software quality.  Craft guilds have created “systems of quality” that span generations. By...</content>
  </entry>
@@ -45,8 +45,8 @@
 
  <entry>
    <title>Testing and Writing - the Knowledge Cycle</title>
-   <link href="https://jshifflet.github.io/testing-and-writing-the-knowledge-cycle"/>
-   <id>https://jshifflet.github.io/testing-and-writing-the-knowledge-cycle</id>
+   <link href="http://localhost:4000/testing-and-writing-the-knowledge-cycle"/>
+   <id>http://localhost:4000/testing-and-writing-the-knowledge-cycle</id>
    <updated>2017-08-13T00:00:00-04:00</updated>
    <content type="html">&lt;p style=&quot;text-align: center&quot;&gt;“Clear thinking becomes clear writing” - William Zinsser &lt;u&gt;On Writing Well&lt;/u&gt;&lt;/p&gt; &lt;p&gt;One of the main components of software testing is knowledge management. This knowledge is learned prior to, during, and after testing actions. Therefore, learning is another essential aspect of software testing. Learning is the process by which...</content>
  </entry>
