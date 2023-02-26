@@ -10,7 +10,7 @@ Hello. I am a Quality Assurance Automation Engineer living in Pittsburgh Pennsyl
 I hold a B.S. in Computer Science from John Carroll University.  While there I studied CS principles as well as Swarm programming, Neural Networks/Cognitive Science, and Network Security. I spent my summers doing research programming which led to several conference publications. This research-based education has created a love of tinkering and hacking together code to prove/disprove new ideas.  
 
 ## Where I Work
-I am currently employed at a large academic medical center.  Most of my time is spent creating API automation tests using Cucumber, Ruby, and load testing with Locust.
+I am currently employed at [Maven Machines](https://mavenmachines.com/).  Most of my time is spent creating API automation tests using Cucumber, Python, and load testing with Locust.
 
 ## About the Site
 I want to share my ideas on both the practical - engineering side of QA Automation as well as on the theoretical side - things like design patterns, technical writing, and software aesthetics.

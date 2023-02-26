@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<meta name="generator" content="Jekyll">
+
+	<title>Is beautiful code possible? Thoughts from Alexander, Gabriel, and Dexter</title>
+  <meta name="description" content="A blog about the art, craft, and science of leading quality">
+
+	<!-- CSS & fonts -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!-- RSS -->
+	<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+
+<body>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	<nav id="nav">
+	<div id="nav-list">
+		<a href="//">Home</a>
+
+		<!-- Nav pages -->
+	  
+	    
+	  
+	    
+	      <a href="/about" title="About">About</a>
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+    
+    <!-- Nav links -->
+	  
+
+
+	</div>
+  
+  <!-- Nav footer -->
+	
+	  <footer>
+	
+	<span>version 1.0.0</span>
+
+</footer>
+	
+
+</nav>
+
+    
+    <!-- Icon menu -->
+	  <a id="nav-menu">
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      
+        <header id="header" class="parent justify-spaceBetween">
+  <div class="inner w100 relative">
+    <span class="f-left">  
+      <a href="/">
+        <h1>
+          <span>Leading Quality</span>
+        </h1>
+      </a>
+    </span>
+    <span id="nav-links" class="absolute right bottom">
+      <!-- Nav pages -->
+	    
+	      
+	    
+	      
+	        <a href="/about" title="About">About</a>
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+	      
+	    
+      
+      <!-- Nav links -->
+	    
+
+
+    </span>
+  </div>
+</header>
+
+
+
+
+      
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			<article id="post-page">
+	<h2>Is beautiful code possible? Thoughts from Alexander, Gabriel, and Dexter</h2>		
+	<time datetime="2019-12-14T00:00:00-05:00" class="by-line">14 Dec 2019</time>
+	<div class="content">
+
+		<p>I have recently be working on relearning software design patterns. This has included reading: “Head First Design Patterns” and Richard P. Gabriel’s “Patterns of Software”. In addition, I have been thinking and reading about aesthetics in software code. In particular, the paper “On the Embodied Aesthetics of Code” by Scott Dexter et. al. All this reading and coding at my day job has me thinking:)</p>
+
+<ul>
+  <li>
+    <p>Can the judgment of beauty be extended to other observers beyond myself - i.e. can beauty be objective?</p>
+  </li>
+  <li>
+    <p>Is beautiful code better than ugly code?</p>
+  </li>
+  <li>
+    <p>If so, then what is beautiful code?</p>
+  </li>
+</ul>
+
+<p>According to Gabriel, beautiful code would be code that has what Christopher Alexander calls “the quality without a name”. This quality is something shared by all beautiful objects. These objects can be cities, houses, streets, or possibly as raised by Gabriel, software code. Alexander attempts to realign facts with value, instead of splitting them apart as has been in vogue since the 1800s.</p>
+
+<p>A beautiful system is one with a whole that stems from its small parts. It is a system that has a stable dynamic harmony between its parts. It is living, being adapted, and modified by its inhabitants. Above all, its inhabitants feel the systems is habitable and beautiful.</p>
+
+<p>The article “On the Embodied Aesthetics of Code” by Scott Dexter et. al. points out that in research studies, ugly code is more often attributed to code with bugs, and that one can pick out ugly code faster than one can judge some piece of code beautiful.</p>
+
+<p>So if Alexander, Gabriel, and and Dexter are correct, then beauty can be objective and applied to code, for the purpose of helping to determine quality.</p>
+
+<p>So, then what if we want beautiful code?</p>
+
+<ul>
+  <li>What attributes would such code embody?</li>
+</ul>
+
+<p>This is were pattern languages can come in to play. Gabriel uses his entire book to explore the overlap of Christopher Alexander’s work and that of software development. Through this he tries to define what attributes beautiful code should have.</p>
+
+<p>He explains in his first few essays, which is as far as I have reached so far, that beautiful code must have Alexander’s “quality without a name”. This quality stems from: not over using abstractions, building from small components, and the use of pattern languages. Above all beautiful code is understandable to the point of allowing future extension and modification.</p>
+
+<p>Abstractions are almost always touted as the goal of good software engineering. However, Gabriel points out, I believe correctly, that abstraction works as “compression”. By compression, here, he means, that each part of the abstraction is actually greater than its local meaning. This means that abstractions work because they are a type of analogy. Their meaning is derived from some prior knowledge.</p>
+
+<p>Gabriel uses the common “stack” pattern as an example. Every CS major knows what a stack is and that if they see the word “stack” in a variable name, then they probably can assume that the author was referring to the common data structure.</p>
+
+<p>Abstraction can fail for several reasons though:</p>
+
+<ul>
+  <li>
+    <p>The knowledge regarding the abstraction is not held by the current software editor.</p>
+  </li>
+  <li>
+    <p>The abstraction is too large, leaving room for ambiguity in its scope and side effects.</p>
+  </li>
+</ul>
+
+<p>The first reason can be solved through education and the building of common pattern libraries. Hence the need for relearning design patterns.</p>
+
+<p>Secondly, though, large abstractions are more dangerous and deserve more attention.</p>
+
+<p>If an abstraction is large, it is probably not general enough to be in a common pattern language library.</p>
+
+<p>Also, since no common knowledge exists, assumptions will be made or the code editor will have to read and understand the entire abstraction to use it.</p>
+
+<p>This last point negates the entire purpose of an abstraction. Good abstractions can be extended and re-worked to save later coders time and reduce the risk of software bugs since the prior abstraction author should have already tested the component.</p>
+
+<p>Whether your program resembles a “web” or a “pyramid”, small abstractions are essential.</p>
+
+<p>They have smaller scope, therefore are easier to test and communicate.</p>
+
+<p>As QA Engineer I care about quality.</p>
+
+<p>The idea that beauty can be an objective way to spot bugs in software is interesting to me.</p>
+
+<p>Also, that pattern libraries can help to increase code habitability through creating beautiful software with the attribute of Alexander’s “quality without a name” is enticing.</p>
+
+<p>In the end, if the judging of elegant code can be objective, then it can be taught, be a goal, and help to increase software quality.</p>
+
+<p>With the help of common pattern languages, code can be better understood, leading to safer maintenance, and less bugs.</p>
+
+<p>My current understanding is that beautiful code is habitable code, and habitable code, is code whose nuances and side-effects are easily seen and understood through the use of small common patterns.</p>
+
+<h1 id="sources">Sources:</h1>
+
+<ol>
+  <li>
+    <p><a href="http://dreamsongs.com/Files/PatternsOfSoftware.pdf">Richard P. Gabriel “Patterns of Software”</a></p>
+  </li>
+  <li>
+    <p><a href="https://culturemachine.net/wp-content/uploads/2019/01/8-Embodied-438-895-1-PB.pdf">Scott Dexter, Melissa Dolese,
+Angelika Seidel, and Aaron Kozbelt “On the Embodied Aesthetics of Code”</a></p>
+  </li>
+</ol>
+
+		
+	</div>
+</article>
+
+
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    <footer><span>@2023 - Jason Shifflet</span></footer>
+
+
+	    <!-- Script -->
+      <script src="/js/main.js"></script>	
+
+
+	</div>
+</body>
+</html>
